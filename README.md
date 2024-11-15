@@ -1,4 +1,4 @@
-# **Complete Guide to Terraform: From Basics to Advanced**
+# **Comprehensive Guide to Terraform: From Basics to Advanced**
 
 ---
 
@@ -242,7 +242,28 @@ data "aws_ami" "latest" {
 
 ---
 
-## **Chapter 13: Automating Terraform with CI/CD**
+## **Chapter 13: Essential Terraform Commands and Their Usage**
+
+### **Core Commands**:
+- **terraform init**: Initializes a working directory with configuration files.
+- **terraform validate**: Validates the configuration syntax.
+- **terraform plan**: Shows the proposed changes.
+- **terraform apply**: Applies the changes to the infrastructure.
+- **terraform destroy**: Deletes all resources defined in the configuration.
+- **terraform import**: Imports existing infrastructure into Terraform.
+- **terraform output**: Shows output values from your configuration.
+- **terraform show**: Shows the current state or a saved plan.
+- **terraform workspace**: Manages workspaces to separate environments.
+
+### **Advanced Commands**:
+- **terraform state**: Inspects and modifies the state.
+- **terraform taint**: Manually marks a resource for recreation.
+- **terraform untaint**: Removes the taint from a resource, preventing recreation.
+- **terraform fmt**: Formats configuration files to follow standards.
+
+---
+
+## **Chapter 14: Automating Terraform with CI/CD**
 
 ### **Setting Up Terraform in a CI/CD Pipeline**:
 - **Version Control Integration**: Link Terraform with GitHub or GitLab.
@@ -251,7 +272,7 @@ data "aws_ami" "latest" {
 
 ---
 
-## **Chapter 14: Securing Your Terraform Setup**
+## **Chapter 15: Securing Your Terraform Setup**
 
 ### **Best Security Practices**:
 - **Secrets Management**: Use HashiCorp Vault or AWS Secrets Manager.
@@ -260,7 +281,7 @@ data "aws_ami" "latest" {
 
 ---
 
-## **Chapter 15: Troubleshooting Common Terraform Issues**
+## **Chapter 16: Troubleshooting Common Terraform Issues**
 
 ### **Common Issues**:
 - **Drift**: When infrastructure changes outside of Terraform. Solution: `terraform plan` to detect changes.
